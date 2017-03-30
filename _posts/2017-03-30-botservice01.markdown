@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bot Service Intro"
+title:  "Bot Service Intro! 입니다"
 date:   2017-03-30 19:00:11 +0900
 categories: Bot service
 ---
