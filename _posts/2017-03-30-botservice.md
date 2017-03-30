@@ -4,7 +4,6 @@ title:  "Bot Service Intro"
 date:   2017-03-30 19:00:11 +0900
 categories: Bot service
 ---
-##Bot Service.. Bot?!
 
 봇! 봇은 여러 가지 의미를 가지고 있습니다. 로봇, 챗봇.. 하지만, Microsoft Azure의 Bot service는 봇 중에서도 요즘 가장 화두가 되는 챗봇(채팅봇)을 의미합니다!
 
