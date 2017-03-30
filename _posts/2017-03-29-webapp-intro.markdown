@@ -6,7 +6,7 @@ categories: Azure Web Applcation
 ---
 # 모바일 어플리케이션의 종류
 
-![Webapp](https://github.com/Azure-For-Beginner/Azure-For-Beginner.github.io/blob/master/_includes/webapp3.png)
+![그림1](https://azureforbeginner.blob.core.windows.net/images/webapp3.png)
 
 ## Native App
 일반적으로 모바일에 설치 되고 실행할 수 있는 앱들을 말합니다. 이러한 앱을 만들려면 각각의 언어와 SDK와 컴파일러가 필요합니다. 모바일 기기에 맞게 만들어졌기 때문에 최상의 성능을 이끌어 낼 수 있습니다.
@@ -20,11 +20,11 @@ categories: Azure Web Applcation
 ## Hybrid App
 위 의 모바일 웹앱의 단점을 보완한것이 하이브리드 앱입니다. 하이브리드 웹은 다른 라이브러리를 사용해 네이티브 앱을 포장해서 배포하는것 입니다. 이런 앱을 만들기위해 Phone Gap이나 Ionic을 사용합니다. 모바일에 다양한 자원들을 사용할 수 있는것이 최고의 장점이라고 할 수 있습니다.
 
-# 웹 앱이 만들어지는 과정
-![Webapp](https://github.com/Azure-For-Beginner/Azure-For-Beginner.github.io/blob/master/_includes/webapp2.jpg)
+# 간단요약
+![그림2](https://azureforbeginner.blob.core.windows.net/images/webapp3.jpg)
 
 # 웹 앱의 장단점
-![Webapp](https://github.com/Azure-For-Beginner/Azure-For-Beginner.github.io/blob/master/_includes/webapp.jpg)
+![그림3](https://azureforbeginner.blob.core.windows.net/images/webapp.jpg)
 
 # 참조
 * http://rctown.tistory.com/57
