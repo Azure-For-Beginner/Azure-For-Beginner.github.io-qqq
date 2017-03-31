@@ -27,6 +27,6 @@ categories: Azure Web Applcation
 ![그림3](https://azureforbeginner.blob.core.windows.net/images/webapp.jpg)
 
 # 참조
-* <http://rctown.tistory.com/57>
-* <http://poten26.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%9B%B9%EC%95%B1%EC%9D%B4%EB%9E%80-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98>
-* <https://www.technote.co.kr/php/technote1/board.php?board=community3&command=body&no=736>
+* [http://rctown.tistory.com/57](http://rctown.tistory.com/57)
+* [http://poten26.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%9B%B9%EC%95%B1%EC%9D%B4%EB%9E%80-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98](http://poten26.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%9B%B9%EC%95%B1%EC%9D%B4%EB%9E%80-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98)
+* [https://www.technote.co.kr/php/technote1/board.php?board=community3&command=body&no=736](https://www.technote.co.kr/php/technote1/board.php?board=community3&command=body&no=736)
