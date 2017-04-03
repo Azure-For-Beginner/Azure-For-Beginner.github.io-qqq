@@ -31,9 +31,20 @@ categories: Azure Web Applcation
 ![그림](https://azureforbeginner.blob.core.windows.net/images/webapp_publish.png)
 10. 다음과 같이 나오면 `Microsoft Azure 앱 서비스`를 선택합니다.
 ![그림](https://azureforbeginner.blob.core.windows.net/images/publish_option.PNG)
-11. 계정을 연동하면 다음과 같이 Azuew에 만들어둔 웹 앱을 검색할 수 있고, 적당한것을 선택하여 웹 앱을 게시합니다.
+11. 계정을 연동하면 다음과 같이 Azure에 만들어둔 웹 앱을 검색할 수 있고, 적당한것을 선택하여 웹 앱을 게시합니다.
 ![그림](https://azureforbeginner.blob.core.windows.net/images/webapp_account.PNG)
-12. 다음과 같이 나오면 바로 게시를 눌러주면 쉽게 Azure 서버에 올릴 수 있다.
+12. 다음과 같이 나오면 바로 게시를 눌러주면 쉽게 Azure 서버에 올릴 수 있습니다.
 ![그림](https://azureforbeginner.blob.core.windows.net/images/webapp_complate.PNG)
-13. 게시가 완료되면 서버가 자동으로 실행되면서 결과를 확인할 수 있다.
+13. 게시가 완료되면 서버가 자동으로 실행되면서 결과를 확인할 수 있습니다.
 ![그림](https://azureforbeginner.blob.core.windows.net/images/webapp.png)
+
+# 알고있으면 좋은 팁
+## Github 연동
+1. 앱 배포 메뉴로 가면 배포 옵션이라는 메뉴가 있습니다. 이 메뉴를 사용하면 로컬 Git 레포지토리나 Github에 있는 레포지토리를 연동할 수 있습니다. Github과 같은 경우는 push 메시지가 들어오면 Azure가 자동으로 인식해서 자동으로 배포를 진행하게 됩니다. 그 외에도 Visual Studio Team Service나 Dropbox, Bitbucket 등 다양하게 있습니다. 가장 많이 쓰이는 Git을 이용하겠습니다.
+2. 설정하는 방법은 다음과 같습니다.
+	* 로컬 Git 레포지토리
+	
+
+# 참고
+* [https://docs.microsoft.com/ko-kr/azure/app-service-web/app-service-web-nodejs-get-started](https://docs.microsoft.com/ko-kr/azure/app-service-web/app-service-web-nodejs-get-started)
+* [https://docs.microsoft.com/ko-kr/azure/app-service-web/web-sites-nodejs-develop-deploy-mac](https://docs.microsoft.com/ko-kr/azure/app-service-web/web-sites-nodejs-develop-deploy-mac)
