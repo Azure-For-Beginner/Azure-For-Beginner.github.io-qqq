@@ -26,3 +26,35 @@ categories: Azure Web Applcation
 7. 업로드를 완료하면 다음과 같이 URL을 통해 파일에 접근할 수 있습니다.
 ![그림](https://azureforbeginner.blob.core.windows.net/images/webapp-upload-success.png)
 ![그림](https://azureforbeginner.blob.core.windows.net/images/webapp-storage-success.png)
+8. 메뉴에 액새스 이름과 키를 메모합니다.
+![그림](https://azureforbeginner.blob.core.windows.net/images/webapp-storage-key.png)
+9. 이제 전에 만들어둔 웹앱을 이용해서 이미지를 띄워보겠습니다. Python 코드에서 runserver.py를 다음과 같이 변경합니다.
+	```
+	from FlaskWebProject1 import app
+	from azure.storage.blob import BlobService
+	from flask import redirect
+	
+	def azureStorageList():
+	    urlPath = None
+	    block_blob_service = BlobService(account_name='yourstorageaccountname',
+	                                     account_key='yourstorageaccountkey')
+	
+	    generator = block_blob_service.list_blobs('azure-practice')
+	    for blob in generator:
+	        urlPath = block_blob_service.make_blob_url('azure-practice', blob.name)
+	
+	    return urlPath
+	
+	@app.route('/')
+	def home():
+	    """Renders the home page."""
+	    return redirect(azureStorageList())
+	```
+10. 그러면 다음과 같이 볼 수 있습니다.
+![그림](https://azureforbeginner.blob.core.windows.net/images/webapp-storage-webapp.png)
+
+# 참고
+* [https://docs.microsoft.com/ko-kr/azure/storage/storage-introduction](https://docs.microsoft.com/ko-kr/azure/storage/storage-introduction)
+* [https://docs.microsoft.com/ko-kr/azure/azure-resource-manager/resource-manager-deployment-model](https://docs.microsoft.com/ko-kr/azure/azure-resource-manager/resource-manager-deployment-model)
+* [https://docs.microsoft.com/ko-kr/azure/storage/storage-service-encryption](https://docs.microsoft.com/ko-kr/azure/storage/storage-service-encryption)
+* [https://docs.microsoft.com/ko-kr/azure/storage/storage-python-how-to-use-blob-storage](https://docs.microsoft.com/ko-kr/azure/storage/storage-python-how-to-use-blob-storage)
