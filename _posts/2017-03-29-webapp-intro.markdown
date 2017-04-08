@@ -1,8 +1,9 @@
-﻿---
+---
 layout: post
 title: "쉽게 배우는 Web App 1 : Web Application 이란"
 tag: [webapp]
 ---
+
 # 모바일 어플리케이션의 종류
 
 ![그림1](https://azureforbeginner.blob.core.windows.net/images/webapp3.png)
