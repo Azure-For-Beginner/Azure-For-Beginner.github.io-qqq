@@ -1,8 +1,7 @@
----
+﻿---
 layout: post
 title: "쉽게 배우는 Web App 2 : Web Application를 만들어 보자!"
-date: "2017-04-02 04:02:38"
-categories: Azure Web Applcation
+tag: [webapp]
 ---
 
 # Web App 만들기

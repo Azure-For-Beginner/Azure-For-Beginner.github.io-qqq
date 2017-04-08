@@ -1,8 +1,7 @@
----
+﻿---
 layout: post
 title: "쉽게 배우는 Web App 1 : Web Application 이란"
-date: "2017-03-29 04:02:38"
-categories: Azure Web Applcation
+tag: [webapp]
 ---
 # 모바일 어플리케이션의 종류
 
