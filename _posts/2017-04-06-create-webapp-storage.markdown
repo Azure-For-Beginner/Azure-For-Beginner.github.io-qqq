@@ -39,9 +39,9 @@ categories: Azure Web Applcation
 	    block_blob_service = BlobService(account_name='yourstorageaccountname',
 	                                     account_key='yourstorageaccountkey')
 	
-	    generator = block_blob_service.list_blobs('azure-practice')
+	    generator = block_blob_service.list_blobs('yourstorageaccountname')
 	    for blob in generator:
-	        urlPath = block_blob_service.make_blob_url('azure-practice', blob.name)
+	        urlPath = block_blob_service.make_blob_url('yourstorageaccountname', blob.name)
 	
 	    return urlPath
 	

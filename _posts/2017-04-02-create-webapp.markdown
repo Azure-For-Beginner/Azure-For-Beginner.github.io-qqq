@@ -42,10 +42,10 @@ categories: Azure Web Applcation
 		1. Python은 Flask를 이용하여 Webapp을 구성해보겠습니다. 그리고 Visual Studio Professional 2017에는 아직 정식으로 Python개발 도구가 등록되지 않아 Visual Studio Code로 진행하겠습니다.
 		2. Visual Studio Code를 실행시켜 다음과 같이 구성합니다.
 		![그림](https://azureforbeginner.blob.core.windows.net/images/visual-studio-code.PNG)
-        	* `ptvs_virtualenv_proxy.py`은 Azure서버가 Windows 서버이기 때문에 virtualenv의 설정을 하기위한 파일입니다.
-        	* `requirements.txt`은 현재 Flask에서 필요한 모듈들을 다운받기 위해 사용하는 파일입니다. 여기에 모듈이름을 입력하고 `pip install -r requirements.txt`를 입력하면 입력된 모듈이 전부 설치됩니다.
-        	* `runtime.txt`는 서버로 사용하고 싶은 python의 version을 입력합니다. `python-2.7`과 `python-3.4`가 있습니다.
-        	* `web.x.y.config`는 Windows 서버에 설정을 잡아주기 위한 설정파일입니다. x와 y는 python의 version을 나타냅니다.
+        		* `ptvs_virtualenv_proxy.py`은 Azure서버가 Windows 서버이기 때문에 virtualenv의 설정을 하기위한 파일입니다.
+        		* `requirements.txt`은 현재 Flask에서 필요한 모듈들을 다운받기 위해 사용하는 파일입니다. 여기에 모듈이름을 입력하고 `pip install -r requirements.txt`를 입력하면 입력된 모듈이 전부 설치됩니다.
+        		* `runtime.txt`는 서버로 사용하고 싶은 python의 version을 입력합니다. `python-2.7`과 `python-3.4`가 있습니다.
+        		* `web.x.y.config`는 Windows 서버에 설정을 잡아주기 위한 설정파일입니다. x와 y는 python의 version을 나타냅니다.
 		3. 그리고 프로젝트를 Github에 푸쉬합니다.
 		4. 다시 Azure Webapp으로 돌아와서 배포 옵션으로 들어갑니다.
 		![그림](https://azureforbeginner.blob.core.windows.net/images/webapp_github.png)
