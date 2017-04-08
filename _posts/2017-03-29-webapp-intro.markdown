@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "쉽게 배우는 Web App 1 : Web Application 이란"
 date: "2017-03-29 04:02:38"
