@@ -15,7 +15,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: Azure-For-Beginner
 
 # Build settings
 markdown: kramdown
+
+source: .
+post_dir: ./_posts
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+includes_dir: ./_includes
+collections: null
