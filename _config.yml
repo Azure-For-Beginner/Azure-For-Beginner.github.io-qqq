@@ -1,7 +1,7 @@
 name: Twister
 description: a powerful jekyll theme
 url: 'https://Azure-For-Beginner.github.io'
-baseurl: #place folder name if site is served in subfolder
+baseurl: ''
 permalink: /:title/
 paginate: 8
 paginate_path: /page/:num/
